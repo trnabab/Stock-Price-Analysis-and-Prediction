@@ -1,6 +1,6 @@
 # Stock Price Analysis and Prediction
 
-This project involves analyzing historical stock prices and building a predictive model to forecast future prices using Python. The project includes data collection, exploration, visualization, preparation, modeling, and evaluation.
+This project involves analyzing historical stock prices and building predictive models to forecast future prices using Python. The project includes data collection, exploration, visualization, preparation, modeling, and evaluation.
 
 ## Project Structure
 
@@ -28,7 +28,7 @@ Make sure you have Python and the following libraries installed:
 1. Clone the repository
 
 ```bash
-git clone https://github.com/your-username/Stock_Price_Analysis_and_Prediction.git
+git clone https://github.com/trnabab/Stock_Price_Analysis_and_Prediction.git
 cd Stock_Price_Analysis_and_Prediction
 ```
 
@@ -64,10 +64,19 @@ Explore the data to understand its structure and plot the closing price over tim
 Create new features such as returns and volatility. Handle missing values and split the data into training and testing sets. Normalize the data for modeling.
 
 ### 5. Model Building and Training
-Build and train a linear regression model to predict stock prices. Fit the model using the training data.
+We will build and train multiple machine learning models to predict stock prices:
+
+- **Linear Regression Model**: Used as the initial model to predict the next day's closing price.
+- **Random Forest Classifier**: An ensemble learning method for regression.
+- **Gradient Boosting**: Builds an additive model in a forward stage-wise manner.
+- **XGBoost**: An optimized distributed gradient boosting library.
 
 ### 6. Model Evaluation
-Evaluate the model's performance using Mean Squared Error (MSE), Mean Absolute Error (MAE), and R-squared (R²) metrics. Interpret the results to assess the model's accuracy and reliability.
+Evaluate the performance of each model using several metrics to understand their performance:
+
+- **Mean Squared Error (MSE)**
+- **Mean Absolute Error (MAE)**
+- **R-squared (R²)**
 
 ## Conclusion
 Summarize the findings and discuss the model's performance. Suggest potential improvements and future work.
