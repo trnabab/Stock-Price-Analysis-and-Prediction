@@ -63,7 +63,7 @@ Open the `Stock_Price_Analysis.ipynb` notebook and follow the steps.
 Install and import the necessary libraries for the project.
 
 ### 2. Data Collection
-Download historical stock price data for Tesla (TSLA) from Yahoo Finance using the `yfinance` library.
+Download historical stock price data for Microsoft (MSFT) from Yahoo Finance using the `yfinance` library.
 
 ### 3. Data Exploration and Visualization
 Explore the data to understand its structure and plot the closing price over time. Calculate and plot moving averages to identify trends.
@@ -99,7 +99,7 @@ The `models` directory contains the following models:
 - `stock_price_predictor_lr.pkl`: The trained Linear Regression model for stock price prediction.
 
 ## Conclusion
-Summarize the findings and discuss the model's performance. Suggest potential improvements and future work.
+Summarized the findings and discuss the model's performance. Suggested potential improvements and future work.
 
 ## License
 This project is licensed under the MIT License - see the LICENSE file for details.
